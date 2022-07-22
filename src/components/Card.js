@@ -34,7 +34,7 @@ const Card = ({taskObj, index, deleteTask, updateListArray}) => {
         setModal(!modal);
     }
     const sectoggle = () => {
-        setModal(!viewmodal);
+        setViewModal(!viewmodal);
     }
 
     const updateTask = (obj) => {
